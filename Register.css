@@ -109,7 +109,17 @@ body {
 .screen-1 .footer span {
   cursor: pointer;
 }
-
+.img778{
+  width: 180px;
+  height: 180px;
+ 
+}
+.div778{
+  width: 180px;
+  height: 180px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
 button {
   cursor: pointer;
 }

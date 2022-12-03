@@ -633,6 +633,7 @@ a:visited{
     height: 50px;
     margin-left: -180px;
     border-radius: 30%;
+    margin-right: -80px;
 }
 #toggleDark{
     width: 30px;
