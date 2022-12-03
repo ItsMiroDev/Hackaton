@@ -1,0 +1,92 @@
+.nav{
+    width: 100% !important; 
+    height: 100px !important;
+    background-color: #df001f !important;
+    align-items: center !important;
+    z-index: 1 !important;
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center;
+
+}
+.Home{
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    line-height: 44px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-family: "Roboto" !important;
+    margin-left: 40px !important;
+}
+.hom{
+    letter-spacing: 1px !important;
+    line-height: 44px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-family: "Roboto" !important; 
+}
+.event{
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    line-height: 44px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-family: "Roboto" !important; 
+}
+.mic{
+    margin-left: 196px;
+    font-size: 50px;
+    color: white;
+}
+.cantus{
+    font-size: 50px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Great Vibes";
+    -webkit-text-stroke: 0.5px #df001f;
+    margin-left: -65px;
+    margin-top: 10px;
+    transform: rotate(345deg);
+    position: absolute;
+}
+
+.logos{
+    margin-left: 196px;
+    text-align: center;
+    display: flex;
+}
+.number{
+    color: white;
+    margin-left: 9px;
+}
+.media{
+    color: white;
+    margin-left: 27px;
+    font-size: 24px;
+letter-spacing: 1px;
+line-height: 44px;
+color: #ffffff;
+font-family: "Font Awesome";
+}
+.ticket{
+    width: 200px;
+height: 50px;
+border-radius: 25px;
+/* filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.1)); */
+background-color: #ffffff;
+margin-left: 30px;
+border: none;
+}
+.tic{
+    font-size: 12px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #df001f;
+font-weight: 700;
+font-family: "Roboto";
+text-decoration: none;
+}
+.tic:hover{
+    color: #df001f;
+}
