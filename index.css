@@ -8,7 +8,7 @@
     text-align: center !important;
     justify-content: center !important;
     align-items: center;
-
+    position: fixed !important;   
 }
 .Home{
     font-size: 13px !important;
@@ -88,5 +88,38 @@ font-family: "Roboto";
 text-decoration: none;
 }
 .tic:hover{
-    color: #df001f;
+    color: #e20321;
+}
+.main{
+    background-color: white;
+    width: 22.5%;
+    height: 753px;
+    position: fixed;
+    box-shadow: 10px 5px 5px lightgray;
+margin-top: 100px;
+/* text-align: center; */
+}
+
+.div1{
+   
+    /* text-align: center; */
+margin-top: 50px;
+}
+.a{
+
+    text-decoration: none;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    color: black !important;
+    font-weight: 700 !important;
+    font-family: "Roboto" !important;
+    margin-left: 40px !important;
+    margin-top: 14px;
+}
+.subdiv{
+    margin-top: 44px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
 }
