@@ -589,3 +589,12 @@ main .container .left .profle{
         display: none;
     }
 }
+/* a{
+    text-decoration: none !important;
+}
+a:visited{
+    text-decoration: none;
+} */
+.af{
+    color: black;
+}
