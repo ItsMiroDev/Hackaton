@@ -50,3 +50,23 @@ messagesNotification.addEventListener('click', () => {
         messages.style.boxShadow = 'none';
     }, 2000);
 })
+
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+const len = document.getElementById('len');
+
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        body.style.background = '#191414';
+len.style.color = 'white'
+        // body.style.color = 'white';
+        body.style.transition = '2s';
+    }
+    else if('bi-brightness-high-fill'){
+        body.style.background = "white";
+        len.style.color = '#191414'
+        body.style.transition = '2s';
+        
+    }
+})

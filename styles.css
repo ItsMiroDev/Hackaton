@@ -617,3 +617,8 @@ a:visited{
     height: 50px;
     margin-left: -180px;
 }
+#toggleDark{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

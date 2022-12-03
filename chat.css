@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0px 30px;
-  background-color: #0652c0;
+  background-color: var(--color-primary);
   color: var(--light-color);
   font-size: 1.5rem;
 }

@@ -10,6 +10,7 @@
     <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -35,9 +36,7 @@
                 </div>
                 <div class="create">
                     <button class="btn btn-primary" for="create-post" onClick="parent.location='register.html'">Create</button></button>
-                    <div class="profile-pic">
-                        <img src="images/profile-8.jpg" alt="pic 1" />
-                    </div>
+                    <i class="bi bi-moon" id="toggleDark"></i>
                 </div>
             </div>
       </nav>
@@ -50,8 +49,7 @@
                         <img src="./images/profile-8.jpg">
                       </div>
                       <div class="handle">
-                          <h4>Chirag</h4>
-                          <p class="text-muted">Transcendence depends on how you think.</p>
+                          <p class="len" id="len">Transcendence depends on how you think.</p>
                       </div>
                   </a>
                   <div class="sidebar">
@@ -168,7 +166,7 @@
                     <div class="profile-pic">
                         <img src="images/profile-8.jpg" alt="">
                     </div>
-                    <input type="text" placeholder="What's on your mind Chirag?" id="create-post">
+                    <input  style="outline: none;" type="text" placeholder="What's on your mind" id="create-post">
                     <input type="submit" value="Post" class="btn btn-primary">
                 </form>
 
@@ -530,29 +528,7 @@
  
               
               
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
+
               
               <div class="chat">
                 <div class="chat-header">
