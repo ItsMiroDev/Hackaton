@@ -32,7 +32,9 @@ body{
     background: var(--color-light);
     overflow-x: hidden;
 }
-
+.collapsible {
+    border-radius: 18px 18px 0px 0px;
+  }
 .container{
     width: 80%;
     margin: 0 auto;
