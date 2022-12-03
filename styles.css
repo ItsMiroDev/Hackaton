@@ -38,11 +38,20 @@ body{
     margin: 0 auto;
 }
 
+
+.profile-pic1{
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: blanchedalmond;
+}
 .profile-pic{
     width: 2.7rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
+    
 }
 
 img{
@@ -261,7 +270,12 @@ main .container .left .profle{
     gap: 0.5rem;
 }
 
+.middle .story .profile-pic{
+border: none!important;
+}
 .middle .stories .story{
+
+
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     display: flex;
@@ -309,7 +323,7 @@ main .container .left .profle{
     background-size: cover   ;
 }
 .middle .stories .story:nth-child(4){
-    background: url('images/volleyball.jpg');
+    background: url('images/runners.jfif');
     background-repeat: no-repeat;
    background-position: center;
    background-size: cover   ;
@@ -321,12 +335,12 @@ main .container .left .profle{
    background-position: center;
    background-size: cover   ;
 }
-.middle .stories .story:nth-child(6){
+/* .middle .stories .story:nth-child(6){
     background: url('images/travelers.jpg');
     background-repeat: no-repeat;
    background-position: center;
    background-size: cover   ;
-}
+} */
 
 .middle .story .profile-pic{
     width: 2rem;
@@ -589,7 +603,18 @@ main .container .left .profle{
         display: none;
     }
 }
+
 a{
     text-decoration: none;
     list-style-type: none;
+
+/* a{
+    text-decoration: none !important;
+}
+a:visited{
+    text-decoration: none;
+} */
+.af{
+    color: black;
+
 }

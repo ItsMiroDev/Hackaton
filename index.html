@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <title>Chirag social</title>
+    <link rel="stylesheet" href="chat.css" />
+    <script src="response.js" defer></script>
+    <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -128,46 +131,48 @@
                     <div class="story">
                         <div class="profile-pic">
                             <img src="images/profile-8.jpg" alt="">
+                        <div class="profile-pic1">
+                            <!-- <img src="./images/profile-8.jpg" alt=""> -->
                         </div>
                         <p class="name">Create club</p>
                     </div>
                     <div class="story">
                         <div class="profile-pic">
-                            <img src="./images/profile-9.jpg" alt="">
+                            <img src="./images/kaikaci.jfif" alt="">
                         </div>
                         <p class="name">Football club</p>
                     </div>
                     <div class="story">
                         <div class="profile-pic">
-                            <img src="./images/profile-2.jpg" alt="">
+                            <img src="./images/pirbade.jfif" alt="">
                         </div>
                         <p class="name">Basketball club</p>
                     </div>
-                    <div class="story">
+                    <!-- <div class="story">
                         <div class="profile-pic">
                             <img src="./images/profile-3.jpg" alt="">
                         </div>
                         <p class="name">Volleyball club</p>
-                    </div>
+                    </div> -->
                     <div class="story">
                         <div class="profile-pic">
                             <img src="./images/profile-4.jpg" alt="">
                         </div>
                         <p class="name">runners club</p>
                     </div>
-                    <div class="story">
+                    <!-- <div class="story">
                         <div class="profile-pic">
                             <img src="./images/profile-5.jpg" alt="">
                         </div>
                         <p class="name">travel club</p>
-                    </div>
+                    </div> -->
                 </div>
 
                 <form class="create-post">
                     <div class="profile-pic">
                         <img src="images/profile-8.jpg" alt="">
                     </div>
-                    <input type="text" placeholder="What's on your mind Chirag?" id="create-post">
+                    <input type="text" placeholder="Rashi Gchirdeba Daxmareba?" id="create-post">
                     <input type="submit" value="Post" class="btn btn-primary">
                 </form>
 
@@ -188,17 +193,25 @@
                          </div>
 
                          <div class="photo">
+
                              <span>Finding friend for holiday trip. #GoingToBatumi</span>
+
+                             <div class="text">
+                                 just went on a run today, but felt kinda lonely. anyone wants to join?
+                                 #lifestyle #lookingforafriend #healthy
+                                 <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">Heres My Location</a>
                          </div>
 
                          <div class="action-button">
                              <div class="interaction-button">
-                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <!-- <span><i class="uil uil-thumbs-up"></i></span> -->
                                  <span><i class="uil uil-comment"></i></span>
                                  <span><i class="uil uil-share"></i></span>
                              </div>
                              <div class="bookmark">
-                                 <span><i class="uil uil-bookmark"></i></span>
+                                 <span><a class="
+                                    af" href="#"><i class="uil uil-bookmark"></i></a></span>
+                                 <span><i>3/4</i></span>
                              </div>
                          </div>
 
@@ -206,6 +219,7 @@
                              <span><img src="images/profile-15.jpg"></span>
                              <span><img src="images/profile-16.jpg"></span>
                              <span><img src="images/profile-17.jpg"></span>
+
                              <p>Liked by <b>Enrest Achiever</b>snd <b>220 others</b></p>
                          </div>
 
@@ -214,6 +228,16 @@
                             <span class="hash-tag">#traveling #lifestyle</span></p>
                          </div>
                          <div class="comments text-muted">View all 130 comments</div>
+
+                             ,<p>waiting   <b>one member </b>to  <b>start activity</b></p>
+                         </div>
+
+                         <!-- <div class="caption">
+                             <p><b></b>1 kacic da gavidvart
+                            <span class="hash-tag">#lifestyle #healthy</span></p>
+                         </div> -->
+                         <!-- <div class="comments text-muted">View all 130 comments</div> -->
+
                     </div>
                 
                     <div class="feed">
@@ -394,137 +418,26 @@
                   
                     
               </div>
-              
-              <div class="right">
-                  <div class="messages">
-                    <div class="heading">
-                        <h4>Messages</h4>
-                        <span><i class="uil uil-edit"></i></span>
-                    </div>
-  
-                    <div class="search-bar">
-                        <span><i class="uil uil-search"></i></span>
-                        <input type="search" placeholder="Search Messages" id="message-search">
-                    </div>
-  
-                    <div class="category">
-                        <h6 class="active">Primary</h6>
-                        <h6>General</h6>
-                        <h6 class="message-requests">Requests(7)</h6>
-                    </div>
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-17.jpg">
-                            <div class="active"></div>
-                        </div>
-                        <div class="message-body">
-                            <h5>Kareena Joshua</h5>
-                            <p class="text-muted">Just woke up bruh..</p>
-                        </div>
-                    </div>                             
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-18.jpg">
-                            <div class="active"></div>
-                        </div>
-                        <div class="message-body">
-                            <h5>Dan Smith</h5>
-                            <p class="text-bold">2 New Messages</p>
-                        </div>
-                    </div>                             
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-15.jpg">
-                        </div>
-                        <div class="message-body">
-                            <h5>Chris Brown</h5>
-                            <p class="text-muted">Lol u right</p>
-                        </div>
-                    </div>                             
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-14.jpg">
-                        </div>
-                        <div class="message-body">
-                            <h5>Lana Rose</h5>
-                            <p class="text-bold">Birthday tomorrow!!</p>
-                        </div>
-                    </div>                             
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-11.jpg">
-                        </div>
-                        <div class="message-body">
-                            <h5>Varun Nair</h5>
-                            <p class="text-muted">Ssup?</p>
-                        </div>
-                    </div>                             
-                    <div class="message">
-                        <div class="profile-pic">
-                            <img src="images/profile-1.jpg">
-                            <div class="active"></div>
-                        </div>
-                        <div class="message-body">
-                            <h5>Jahnvi Doifode</h5>
-                            <p class="text-bold">3 New Messages</p>
-                        </div>
-                    </div>                                                        
+              </div>  
+              <div class="chat">
+                <div class="chat-header">
+                  <div class="logo">
+                    <img src="images/cwt.jpg" alt="cwt" />
+                  </div>
+                  <div class="title">Support</div>
                 </div>
-                <div class="friend-requests">
-                    <h4>Requests</h4>
-                    <div class="request">
-                        <div class="info">
-                            <div class="profile-pic">
-                                <img src="images/profile-13.jpg">
-                            </div>
-                            <div>
-                                <h5>Wilson Fisk</h5>
-                                <p class="text-muted">8 mutual friends</p>
-                                
-                            </div>
-                        </div>
-                        <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
-                        </div>
-                    </div>
-                    <div class="request">
-                        <div class="info">
-                            <div class="profile-pic">
-                                <img src="images/profile-20.jpg">
-                            </div>
-                            <div>
-                                <h5>Srishti Tirkey</h5>
-                                <p class="text-muted">2 mutual friends</p>
-                                
-                            </div>
-                        </div>
-                        <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
-                        </div>
-                    </div>
-                    <div class="request">
-                        <div class="info">
-                            <div class="profile-pic">
-                                <img src="images/profile-5.jpg">
-                            </div>
-                            <div>
-                                <h5>Christ Kahea</h5>
-                                <p class="text-muted">1 mutual friend</p>
-                                
-                            </div>
-                        </div>
-                        <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
-                        </div>
-                    </div>
-            
-              </div> 
-
-
-               
+                <div class="chat-body">
+                    <p style="margin-top: 1rem;margin-right: 5rem;">24/7 realtime support</p>
+                </div>
+                <div class="chat-input">
+                  <div class="input-sec">
+                    <input type="text" id="txtInput" placeholder="Type here" autofocus />
+                  </div>
+                  <div class="send">
+                    <img src="images/send.svg" alt="send" />
+                  </div>
+                </div>
+              </div>
               </div>
           </div>
       </main>
