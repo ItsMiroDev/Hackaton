@@ -117,10 +117,14 @@ nav .container{
     background: var(--color-light);
     border-radius: var(--border-radius);
     padding: var(--seacrh-padding);
+    height:  50px;
+    padding-top: 13px;
+    padding-left: 5px;
 }
 .search-bar input[type="search"]{
     background: transparent;
     width: 30vw;
+    
 }
 
 nav .search-bar input[type="search"]::placeholder{
