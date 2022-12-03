@@ -321,12 +321,12 @@ main .container .left .profle{
    background-position: center;
    background-size: cover   ;
 }
-.middle .stories .story:nth-child(6){
+/* .middle .stories .story:nth-child(6){
     background: url('images/travelers.jpg');
     background-repeat: no-repeat;
    background-position: center;
    background-size: cover   ;
-}
+} */
 
 .middle .story .profile-pic{
     width: 2rem;
