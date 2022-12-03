@@ -160,7 +160,7 @@ main .container .left .profle{
     display: flex;
     align-items: center;
     position: relative;
-    height: 5rem;
+    height: 4rem;
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -603,11 +603,6 @@ border: none!important;
         display: none;
     }
 }
-
-a{
-    text-decoration: none;
-    list-style-type: none;
-
 /* a{
     text-decoration: none !important;
 }
@@ -616,5 +611,4 @@ a:visited{
 } */
 .af{
     color: black;
-
 }
