@@ -1,0 +1,11 @@
+.nav{
+    width: 100% !important; 
+    height: 100px !important;
+    background-color: #df001f !important;
+    align-items: center !important;
+    z-index: 1 !important;
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center;
+}
