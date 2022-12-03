@@ -415,13 +415,15 @@ border: none!important;
 .middle .liked-by{
     display: flex;
 }
-
+.collapsible{
+    border-radius: 18px 18px 0px 0px;
+}
 .middle .liked-by span{
     width: 1.4rem;
     height: 1.4rem;
     display: block;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius:50%;
     border: 2px solid var(--color-white);
     margin-left: -0.6rem;
 }
