@@ -96,7 +96,7 @@ text-decoration: none;
     width: 22.5%;
     height: 753px;
     position: fixed;
-    box-shadow: 10px 5px 5px lightgray;
+   border: 1px solid lightgray;
 margin-top: 100px;
 /* text-align: center; */
 }
