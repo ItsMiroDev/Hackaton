@@ -38,7 +38,9 @@ body{
     margin: 0 auto;
 }
 
-
+.af{
+    color: black;
+}
 .profile-pic1{
     width: 2.7rem;
     aspect-ratio: 1/1;
@@ -53,7 +55,9 @@ body{
     overflow: hidden;
     
 }
-
+.uil-ellipsis-h:before {
+    content: none;
+}
 img{
     display: block;
     width: 100%;
@@ -101,7 +105,11 @@ nav .container{
     align-items: center;
     justify-content: space-between;
 }
-
+.img9889{
+    width:  30px;
+    height:  30px;
+    margin-left: 320px;
+}
 .search-bar{
     background: var(--color-light);
     border-radius: var(--border-radius);
