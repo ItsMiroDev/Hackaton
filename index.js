@@ -61,12 +61,12 @@ toggle.addEventListener('click', function(){
         body.style.background = '#191414';
 len.style.color = 'white'
         // body.style.color = 'white';
-        body.style.transition = '2s';
+        body.style.transition = '0.6s';
     }
     else if('bi-brightness-high-fill'){
-        body.style.background = "white";
+        body.style.background = "#E1DEED";
         len.style.color = '#191414'
-        body.style.transition = '2s';
+        body.style.transition = '0.6s';
         
     }
 })
