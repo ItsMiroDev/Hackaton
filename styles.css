@@ -530,7 +530,14 @@ border: none!important;
     
 }
 
-
+.think{
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    font-family: "Great Vibes";
+    text-align: center;
+    margin-top: 70px;
+}
 .right .friend-requests{
     margin-top: 1rem;
 }
@@ -546,7 +553,6 @@ border: none!important;
     border-radius: var(--card-border-radius);
     margin-bottom: 0.7rem;
 }
-
 .right .request .info{
     display: flex;
     gap: 1rem;
