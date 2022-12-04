@@ -1,4 +1,30 @@
 //sidebar
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 const menuItems = document.querySelectorAll('.menu-item');
 const messagesNotification = document.querySelector('#messages-notifications');
 const messages = document.querySelector('.messages');
@@ -59,7 +85,7 @@ toggle.addEventListener('click', function(){
     this.classList.toggle('bi-moon');
     if(this.classList.toggle('bi-brightness-high-fill')){
         body.style.background = '#191414';
-len.style.color = 'white'
+        len.style.color = 'white'
         // body.style.color = 'white';
         body.style.transition = '0.6s';
     }
@@ -69,4 +95,18 @@ len.style.color = 'white'
         body.style.transition = '0.6s';
         
     }
+
 })
+
+
+$(Accept).click(function (e) { 
+    e.preventDefault();
+    $(this).closest(".request").remove();
+    
+});
+
+$(Decline).click(function (e) { 
+    e.preventDefault();
+    $(this).closest(".request").remove();
+    
+});

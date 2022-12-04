@@ -32,6 +32,7 @@ a<!DOCTYPE html>
                 <div class="search-bar">
                     <i class="uil uil-search"></i>
                     <input
+                    class="Main_search"
                     type="search"
                     placeholder="Search for creators, inspirations and projects"
                     />
@@ -41,6 +42,7 @@ a<!DOCTYPE html>
                     <i class="bi bi-moon" id="toggleDark"></i>
                 </div>
                 <img class="lgs" src="./images/profile-8.jpg" alt="">
+                <img class="lgs2" src="./images/3472620.png" alt="">
             </div>
       </nav>
 
@@ -114,10 +116,68 @@ a<!DOCTYPE html>
               <div class="middle">
                 <div class="stories">
                     <div class="story">
-                       <div class="div21"><h1 class="h21    ">Sport Clubs</h1> 
+                       <div class="div21"><h1 class="h21">Sport Clubs</h1> 
                         <div class="tog">
+                        <input type="submit" value="Join" class="uhh3">     <input type="submit" value="Create your own club" class="ugg45" id="myBtn">
 
-                        <input type="submit" value="Join" class="uhh3">     <input type="submit" value="Create your own club" class="ugg45">
+
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                                  <div id="generic_price_table">
+                                  <section>
+                                      <div class="container">
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <div class="price-heading clearfix">
+                                                      <h1>Purchase Premium for Unlimited Posts</h1>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                          
+                                      <div class="container">
+                                              <div class="col-md-4">
+                                                  <div class="generic_content active clearfix">
+                                                      <div class="generic_head_price clearfix">
+                                                          <div class="generic_head_content clearfix">
+                                                              <div class="head_bg"></div>
+                                                                  <div class="head">
+                                                                      <span>Premium</span>
+                                                                  </div>
+                                                          </div>
+                          
+                                                          <div class="generic_price_tag clearfix">
+                                                              <span class="price">
+                                                                  <span class="sign">$</span>
+                                                                  <span class="currency">99</span>
+                                                                  <span class="cent">.99</span>
+                                                                  <span class="month">/MON</span>
+                                                              </span>
+                                                          </div>
+                                                      </div>
+                          
+                                                      <div class="generic_feature_list">
+                                                          <ul>
+                                                              <li><span>Unlimited Posts</span></li>
+                                                              <li><span> Create own Club</span></li>
+                                                             
+                                                          </ul>
+                                                      </div>
+                          
+                                                      <div class="generic_price_btn clearfix">
+                                                          <a href="" class="">Purchase  </a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </section>
+                              </div>
+                            </div>
+
                     </div>
                 </div>
                                             
@@ -129,9 +189,65 @@ a<!DOCTYPE html>
                     <div class="profile-pic">
                         <img src="images/profile-8.jpg" alt="">
                     </div>
-                    <input  style="outline: none;" type="text" placeholder="What's on your mind                                     5 left" id="create-post">
+                    <input  style="outline: none;" type="text" placeholder="What's on your mind                                                                                                         5 left" id="create-post">
                     <input type="submit" value="Post" class="uhh">
-                    <button class="ugg" for="create-post"><a style="text-decoration: none; list-style-type:none; color: white;" href="plan.html">Prem</a></button>
+                    <!-- <input type="submit" value="Premium" class="ugg45" id="myBtn"> -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                              <div id="generic_price_table">
+                              <section>
+                                  <div class="container">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div class="price-heading clearfix">
+                                                  <h1>Purchase Premium for Unlimited Posts</h1>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                      
+                                  <div class="container">
+                                          <div class="col-md-4">
+                                              <div class="generic_content active clearfix">
+                                                  <div class="generic_head_price clearfix">
+                                                      <div class="generic_head_content clearfix">
+                                                          <div class="head_bg"></div>
+                                                              <div class="head">
+                                                                  <span>Premium</span>
+                                                              </div>
+                                                      </div>
+                      
+                                                      <div class="generic_price_tag clearfix">
+                                                          <span class="price">
+                                                              <span class="sign">$</span>
+                                                              <span class="currency">99</span>
+                                                              <span class="cent">.99</span>
+                                                              <span class="month">/MON</span>
+                                                          </span>
+                                                      </div>
+                                                  </div>
+                      
+                                                  <div class="generic_feature_list">
+                                                      <ul>
+                                                          <li><span>Unlimited Posts</span></li>
+                                                          <li><span> Create own Club</span></li>
+                                                         
+                                                      </ul>
+                                                  </div>
+                      
+                                                  <div class="generic_price_btn clearfix">
+                                                      <a href="" class="">Purchase  </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </section>
+                          </div>
+                        </div>
                 </form>
 
                 <div class="feeds">
@@ -144,9 +260,10 @@ a<!DOCTYPE html>
                                  <img src="images/profile-14.jpg" alt="">
                              </div>
                              <div class="info">
-                                 <h3>Lana Rose</h3>  
+                                 <h3>Lana Rose                    4.8</h3> <img class="star" src="./images/star.png" alt="">
                                  <small>Tbilisi, 3 HOUR AGO</small>
                              </div>
+                            
                              <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">  <img  class="img9889" src="images/pngtree-black-map-coordinates-navigation-gps-navigation-png-image_368071-removebg-preview.png" alt="">
                                 <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>  </a>
                          </div>
@@ -191,7 +308,7 @@ a<!DOCTYPE html>
                                 <img src="images/profile-11.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h3>James Bond</h3>  
+                                <h3>James Bond                    4.6</h3> <img class="star" src="images/star.png" alt="">
                                 <small>Tbilisi, 3 HOUR AGO</small>
                             </div>
                             <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">  <img  class="img9889" src="images/pngtree-black-map-coordinates-navigation-gps-navigation-png-image_368071-removebg-preview.png" alt="">
@@ -236,7 +353,7 @@ a<!DOCTYPE html>
                                 <img src="images/profile-10.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h3>Jane</h3>  
+                                <h3>Jane Mendy                 3.9</h3> <img class="star" src="images/star.png" alt="">
                                 <small>Tbilisi, 3 HOUR AGO</small>
                             </div>
                             <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">  <img  class="img9889" src="images/pngtree-black-map-coordinates-navigation-gps-navigation-png-image_368071-removebg-preview.png" alt="">
@@ -267,7 +384,7 @@ a<!DOCTYPE html>
                          </div>
 
                          <div class="caption">
-                             <p><b>John Samron</b>
+                        
                             <span class="hash-tag">#Math</span></p>
                          </div>
                          
@@ -282,7 +399,7 @@ a<!DOCTYPE html>
                                 <img src="images/profile-15.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h3>Xose Kuse</h3>  
+                                <h3>Xose Kuse                    3.9</h3> <img class="star" src="images/star.png" alt="">  
                                 <small>Tbilisi, 3 HOUR AGO</small>
                             </div>
                             <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">  <img  class="img9889" src="images/pngtree-black-map-coordinates-navigation-gps-navigation-png-image_368071-removebg-preview.png" alt="">
@@ -313,7 +430,7 @@ a<!DOCTYPE html>
                          </div>
 
                          <div class="caption">
-                             <p><b>Kareena Joshua</b>
+                           
                             <span class="hash-tag">#lifestyle #needhelp</span></p>
                          </div>
                          
@@ -328,7 +445,7 @@ a<!DOCTYPE html>
                                 <img src="images/profile-16.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h3>Nick Brick</h3>  
+                                <h3>Nick Brick                   3.5</h3> <img class="star" src="images/star.png" alt="">  
                                 <small>Tbilisi, 3 HOUR AGO</small>
                             </div>
                             <a href="https://www.google.com/maps/place/%E1%83%92%E1%83%9A%E1%83%93%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AB%E1%83%90%E1%83%9A%E1%83%90%E1%83%93%E1%83%94%E1%83%95%E1%83%98,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7806,44.8448503,14z/data=!4m5!3m4!1s0x40446daa9e481309:0x3a80b64c37aaa52e!8m2!3d41.7581044!4d44.8269268" target="blank">  <img  class="img9889" src="images/pngtree-black-map-coordinates-navigation-gps-navigation-png-image_368071-removebg-preview.png" alt="">
@@ -458,8 +575,8 @@ a<!DOCTYPE html>
                             </div>
                         </div>
                         <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
+                            <button id="Accept" class="btn btn-primary">Accept</button>
+                            <button id="Decline" class="btn">Decline</button>
                         </div>
                     </div>
                     <div class="request">
@@ -474,8 +591,8 @@ a<!DOCTYPE html>
                             </div>
                         </div>
                         <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
+                            <button id="Accept" class="btn btn-primary">Accept</button>
+                            <button id="Decline" class="btn">Decline</button>
                         </div>
                     </div>
                     <div class="request">
@@ -490,8 +607,8 @@ a<!DOCTYPE html>
                             </div>
                         </div>
                         <div class="action">
-                            <button class="btn btn-primary">Accept</button>
-                            <button class="btn">Decline</button>
+                            <button id="Accept" class="btn btn-primary">Accept</button>
+                            <button id="Decline" class="btn">Decline</button>
                         </div>
                     </div>
             
@@ -542,6 +659,7 @@ a<!DOCTYPE html>
         </div>
 
     </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <script src="index.js"></script>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
