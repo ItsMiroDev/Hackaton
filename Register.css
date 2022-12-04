@@ -14,7 +14,9 @@ body {
   background: #dde5f4;
   height: 100vh;
 }
-
+.a78{
+    text-decoration: none;
+}
 .screen-1 {
   background: #f1f7fe;
   padding: 2em;
@@ -104,7 +106,7 @@ body {
   font-size: 0.7em;
   color: #5e5e5e;
   gap: 14em;
-  padding-bottom: 10em;
+  padding-bottom: 4em;
 }
 .screen-1 .footer span {
   cursor: pointer;
